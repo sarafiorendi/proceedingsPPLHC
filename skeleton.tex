@@ -4,6 +4,10 @@
 % data according to the instructions in PoSauthmanual.pdf
 \documentclass{PoS}
 
+\newcommand{\theInvRho}{\frac{\varepsilon_{\mu^+\mu^-}}{\varepsilon_{J/\psi K^{\pm}}}}
+\newcommand{\pt}{$p_{\rm{T}}$}
+\newcommand{\gev}{\rm{GeV}}
+
 \title{Contribution title}
 
 \ShortTitle{Short Title for header}
@@ -26,12 +30,22 @@
 
 \begin{document}
 
-\section{...}
+%\section{...}
+\include{intro}
+\include{ppLHC_desanctis}
 
-\begin{thebibliography}{99}
-\bibitem{...}
-....
+\clearpage
+%\bibliography{bib}
+%%\addcontentsline{toc}{chapter}{References}
+%\bibliographystyle{hunsrt}
+%%\include{endmatter/colophon}
 
-\end{thebibliography}
+%\include{bib}
+
+%\begin{thebibliography}{99}
+%\bibitem{...}
+%....
+%
+%\end{thebibliography}
 
 \end{document}
